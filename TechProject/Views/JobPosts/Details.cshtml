@@ -1,0 +1,99 @@
+﻿@model TechProject.Models.JobPost
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+<div class="app-content">
+    <div class="container">
+        <h2 class="text-center>">Details</h2>
+        <div>
+            <h4>JobPost</h4>
+            <hr />
+            <dl class="dl-horizontal">
+                <dt>
+                    Job Id
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Id)
+                </dd>
+                <dt>
+                    Name
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Name)
+                </dd>
+                <dt>
+                    Vacancy
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Vacancy)
+                </dd>
+                <dt>
+                    Position
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Position)
+                </dd>
+                <dt>
+                    Description
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Desp)
+                </dd>
+                <dt>
+                    Nature
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Nature)
+                </dd>
+                <dt>
+                    Experience
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Experience)
+                </dd>
+                <dt>
+                    Skill
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Skill)
+                </dd>
+                <dt>
+                    Requirements
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Requirements)
+                </dd>
+                <dt>
+                    Address
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Address)
+                </dd>
+                <dt>
+                    Salary
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Salary)
+                </dd>
+                <dt>
+                    Added Date
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.AddedDate)
+                </dd>
+                <dt>
+                    Last Date
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.LastDate)
+                </dd>
+            </dl>
+        </div>
+        <div>
+            <a class="btn btn-warning" asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+            <a class="btn btn-primary" asp-action="Index">Back to List</a>
+        </div>
+        </div>
+    </div>

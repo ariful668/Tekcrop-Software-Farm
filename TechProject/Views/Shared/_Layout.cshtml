@@ -1,0 +1,166 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Tech Training</title>
+
+    <environment include="Development">
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="~/css/site.css" />
+        <link href="~/DataDirectory/css/Style.css" rel="stylesheet" />
+        <link href="~/DataDirectory/css/Login.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </environment>
+    <environment exclude="Development">
+        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
+              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+        <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+    </environment>
+</head>
+<body>
+    <div id="nav-wrapper" class="background-white color-black">
+        <nav id="menubar" class="navbar navbar-fixed-top" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar background-lead"></span>
+                        <span class="icon-bar background-lead"></span>
+                        <span class="icon-bar background-lead"></span>
+                    </button>
+                    <a asp-controller="Home" asp-action="Index">
+                        <div class="navbar-logo">
+                            <img class="img-responsive" src="~/DataDirectory/images/Home/logo.png" width="60" alt="Tech Training">
+                        </div>
+                        <div class="logo-name">
+                            Tech Training
+                        </div>
+                    </a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="Career">Career</a></li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="Service">Services</a></li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
+                        <li><a asp-area="" asp-controller="Account" asp-action="Login"><span class="fa fa-lock"></span></a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="body-content">
+        @RenderBody()
+        <div class="footer-up">
+            <div class="dark-overlay">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-3 col-xs-12 footer-info">
+                            <h3>Menu</h3>
+                            <hr />
+                            <ul>
+                                <li><a asp-action="Index">Home</a></li>
+                                <li><a asp-action="About">About</a></li>
+                                <li><a asp-action="Career">Carrer</a></li>
+                                <li><a asp-action="Services">Services</a></li>
+                                <li><a asp-action="Contact">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-3 footer-info">
+                            <h3>Job Seekers</h3>
+                            <hr />
+                            <ul>
+                                <li><a asp-controller="Home" asp-action="Career">Search Jobs</a></li>
+                                <li><a asp-controller="Home" asp-action="Career">Submit Resume</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 footer-info contact-info">
+                            <h3>Address</h3>
+                            <hr />
+                            <p class="fa fa-tty"></p><span class="social-title">703-939-2683</span><br />
+                            <p class="fa fa-envelope"></p><a class="social-title" href="mailto:lessons.net@gmail.com">lessons.net@gmail.com</a><br />
+                            <p class="fa fa-globe"></p><a class="social-title" href="http://training.tekcrop.com/" target="_blank">Training.tekcrop.com</a><br />
+                            <p class="fa fa-home"></p><span class="social-title">Address:901 S Highland St,Room#332 Arlington, Va, 22204</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h4 class="mb-0">Copyright 2019 © Tech Training</h4>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <environment include="Development">
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+        <script type="text/javascript" src="https://msp.exosource.com/wp-content/themes/exosource/js/exosource.js"></script>
+    </environment>
+    <environment exclude="Development">
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.3.1.min.js"
+                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                asp-fallback-test="window.jQuery"
+                crossorigin="anonymous"
+                integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT">
+        </script>
+        <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js"
+                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
+                asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+                crossorigin="anonymous"
+                integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa">
+        </script>
+        <script src="~/js/site.min.js" asp-append-version="true"></script>
+    </environment>
+    <!--My Js-->
+    <script src="~/DataDirectory/js/reduce-menu.js"></script>
+    <script src="~/DataDirectory/js/jquery.mixitup.min.js"></script>
+    <script src="~/DataDirectory/js/responsive-slider.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#mixit').mixitup();
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(window).load(function () {
+            if ($(window).width() > 767) {
+                matchHeight($('.info-thumbnail .caption .description'), 3);
+            }
+
+            $(window).on('resize', function () {
+                if ($(window).width() > 767) {
+                    $('.info-thumbnail .caption .description').height('auto');
+                    matchHeight($('.info-thumbnail .caption .description'), 3);
+                }
+            });
+        });
+
+    </script>
+
+    <script type="text/javascript">
+            $('#BSbtndanger').filestyle({
+
+                buttonName: 'btn-danger',
+
+            buttonText: ' Upload CV'
+
+        });
+    </script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

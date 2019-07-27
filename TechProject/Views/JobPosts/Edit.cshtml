@@ -1,0 +1,98 @@
+﻿@model TechProject.Models.JobPost
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="app-content">
+    <div class="container">
+        <div class="card">
+            <div class="card-header bg-secondary text-white">
+                <h2 class="text-center">Edit Job Post</h2>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-4">
+                        <form asp-action="Edit">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <input type="hidden" asp-for="Id" />
+                            <div class="form-group">
+                                <label class="control-label">Name</label>
+                                <input asp-for="Name" class="form-control" />
+                                <span asp-validation-for="Name" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">Vacancy</label>
+                                <input asp-for="Vacancy" class="form-control" />
+                                <span asp-validation-for="Vacancy" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">Position</label>
+                                <input asp-for="Position" class="form-control" />
+                                <span asp-validation-for="Position" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">Description</label>
+                                @Html.TextArea("Desp", null, new { @class = "form-control" })
+                                <span asp-validation-for="Desp" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">Nature</label>
+                                <input asp-for="Nature" class="form-control" />
+                                <span asp-validation-for="Nature" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">Experience</label>
+                                <input asp-for="Experience" class="form-control" />
+                                <span asp-validation-for="Experience" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">Skill</label>
+                                @Html.TextArea("Skill", null, new { @class = "form-control" })
+                                <span asp-validation-for="Skill" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">Requirements</label>
+                                @Html.TextArea("Requirements", null, new { @class = "form-control" })
+                                <span asp-validation-for="Requirements" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">Address</label>
+                                @Html.TextArea("Address", null, new { @class = "form-control" })
+                                <span asp-validation-for="Address" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">Salary</label>
+                                <input asp-for="Salary" class="form-control" />
+                                <span asp-validation-for="Salary" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">Added Date</label>
+                                <input asp-for="AddedDate" class="form-control" />
+                                <span asp-validation-for="AddedDate" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">LastDate</label>
+                                <input asp-for="LastDate" class="form-control" />
+                                <span asp-validation-for="LastDate" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" value="Save" class="btn btn-success pull-right" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br />
+    <br />
+    <div>
+        <a class="btn btn-primary pull-right" asp-action="Index">Back to List</a>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

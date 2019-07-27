@@ -1,0 +1,45 @@
+﻿@model TechProject.Models.ContactPerson
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+<div class="app-content">
+    <div class="container">
+        <h2>Details</h2>
+        <div>
+            <h4>ContactPerson</h4>
+            <hr />
+            <dl class="dl-horizontal">
+                <dt>
+                    Name
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Name)
+                </dd>
+                <dt>
+                    Phone No
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Phone)
+                </dd>
+                <dt>
+                    Email
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Email)
+                </dd>
+                <dt>
+                    Message
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Message)
+                </dd>
+            </dl>
+        </div>
+        <div>
+            <a class="btn btn-danger" asp-action="Delete" asp-route-id="@Model.Id">Delete</a> |
+            <a class="btn btn-primary" asp-action="Index">Back to List</a>
+        </div>
+    </div>
+</div>

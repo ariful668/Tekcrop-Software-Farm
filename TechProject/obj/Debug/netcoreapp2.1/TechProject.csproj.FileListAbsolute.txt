@@ -1,0 +1,138 @@
+C:\TechProject V1.2\TechProject\TechProject\bin\Debug\netcoreapp2.1\TechProject.deps.json
+C:\TechProject V1.2\TechProject\TechProject\bin\Debug\netcoreapp2.1\TechProject.runtimeconfig.json
+C:\TechProject V1.2\TechProject\TechProject\bin\Debug\netcoreapp2.1\TechProject.runtimeconfig.dev.json
+C:\TechProject V1.2\TechProject\TechProject\bin\Debug\netcoreapp2.1\TechProject.dll
+C:\TechProject V1.2\TechProject\TechProject\bin\Debug\netcoreapp2.1\TechProject.pdb
+C:\TechProject V1.2\TechProject\TechProject\bin\Debug\netcoreapp2.1\TechProject.Views.dll
+C:\TechProject V1.2\TechProject\TechProject\bin\Debug\netcoreapp2.1\TechProject.Views.pdb
+C:\TechProject V1.2\TechProject\TechProject\obj\Debug\netcoreapp2.1\TechProject.csprojAssemblyReference.cache
+C:\TechProject V1.2\TechProject\TechProject\obj\Debug\netcoreapp2.1\TechProject.csproj.CoreCompileInputs.cache
+C:\TechProject V1.2\TechProject\TechProject\obj\Debug\netcoreapp2.1\TechProject.RazorAssemblyInfo.cache
+C:\TechProject V1.2\TechProject\TechProject\obj\Debug\netcoreapp2.1\TechProject.RazorAssemblyInfo.cs
+C:\TechProject V1.2\TechProject\TechProject\obj\Debug\netcoreapp2.1\TechProject.AssemblyInfoInputs.cache
+C:\TechProject V1.2\TechProject\TechProject\obj\Debug\netcoreapp2.1\TechProject.AssemblyInfo.cs
+C:\TechProject V1.2\TechProject\TechProject\obj\Debug\netcoreapp2.1\TechProject.TagHelpers.input.cache
+C:\TechProject V1.2\TechProject\TechProject\obj\Debug\netcoreapp2.1\TechProject.TagHelpers.output.cache
+C:\TechProject V1.2\TechProject\TechProject\obj\Debug\netcoreapp2.1\TechProject.RazorCoreGenerate.cache
+C:\TechProject V1.2\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.g.cshtml.cs
+C:\TechProject V1.2\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\ContactPersons\Delete.g.cshtml.cs
+C:\TechProject V1.2\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\ContactPersons\Details.g.cshtml.cs
+C:\TechProject V1.2\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\ContactPersons\Index.g.cshtml.cs
+C:\TechProject V1.2\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\TechProject V1.2\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\Home\AdminIndex.g.cshtml.cs
+C:\TechProject V1.2\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\Home\Career.g.cshtml.cs
+C:\TechProject V1.2\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\TechProject V1.2\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\TechProject V1.2\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\Home\JobDetails.g.cshtml.cs
+C:\TechProject V1.2\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\Home\Service.g.cshtml.cs
+C:\TechProject V1.2\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\JobPosts\Create.g.cshtml.cs
+C:\TechProject V1.2\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\JobPosts\Delete.g.cshtml.cs
+C:\TechProject V1.2\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\JobPosts\Details.g.cshtml.cs
+C:\TechProject V1.2\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\JobPosts\Edit.g.cshtml.cs
+C:\TechProject V1.2\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\JobPosts\Index.g.cshtml.cs
+C:\TechProject V1.2\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\Recruiters\Index.g.cshtml.cs
+C:\TechProject V1.2\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\TechProject V1.2\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\TechProject V1.2\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\TechProject V1.2\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LayoutAdmin.g.cshtml.cs
+C:\TechProject V1.2\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\TechProject V1.2\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\TechProject V1.2\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\TechProject V1.2\TechProject\TechProject\obj\Debug\netcoreapp2.1\TechProject.RazorTargetAssemblyInfo.cache
+C:\TechProject V1.2\TechProject\TechProject\obj\Debug\netcoreapp2.1\TechProject.RazorTargetAssemblyInfo.cs
+C:\TechProject V1.2\TechProject\TechProject\obj\Debug\netcoreapp2.1\TechProject.Views.pdb
+C:\TechProject V1.2\TechProject\TechProject\obj\Debug\netcoreapp2.1\TechProject.dll
+C:\TechProject V1.2\TechProject\TechProject\obj\Debug\netcoreapp2.1\TechProject.pdb
+C:\TechProject V1.2\TechProject\TechProject\obj\Debug\netcoreapp2.1\TechProject.csproj.CopyComplete
+C:\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\TechProject.csprojAssemblyReference.cache
+C:\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\TechProject.csproj.CoreCompileInputs.cache
+C:\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\TechProject.RazorAssemblyInfo.cache
+C:\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\TechProject.RazorAssemblyInfo.cs
+C:\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\TechProject.AssemblyInfoInputs.cache
+C:\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\TechProject.AssemblyInfo.cs
+C:\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\TechProject.dll
+C:\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\TechProject.pdb
+C:\TechProject\TechProject\TechProject\bin\Debug\netcoreapp2.1\TechProject.deps.json
+C:\TechProject\TechProject\TechProject\bin\Debug\netcoreapp2.1\TechProject.runtimeconfig.json
+C:\TechProject\TechProject\TechProject\bin\Debug\netcoreapp2.1\TechProject.runtimeconfig.dev.json
+C:\TechProject\TechProject\TechProject\bin\Debug\netcoreapp2.1\TechProject.dll
+C:\TechProject\TechProject\TechProject\bin\Debug\netcoreapp2.1\TechProject.pdb
+C:\TechProject\TechProject\TechProject\bin\Debug\netcoreapp2.1\TechProject.Views.dll
+C:\TechProject\TechProject\TechProject\bin\Debug\netcoreapp2.1\TechProject.Views.pdb
+C:\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\TechProject.TagHelpers.input.cache
+C:\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\TechProject.TagHelpers.output.cache
+C:\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\TechProject.RazorCoreGenerate.cache
+C:\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.g.cshtml.cs
+C:\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\ContactPersons\Delete.g.cshtml.cs
+C:\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\ContactPersons\Details.g.cshtml.cs
+C:\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\ContactPersons\Index.g.cshtml.cs
+C:\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\Home\AdminIndex.g.cshtml.cs
+C:\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\Home\Career.g.cshtml.cs
+C:\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\Home\JobDetails.g.cshtml.cs
+C:\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\Home\Service.g.cshtml.cs
+C:\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\JobPosts\Create.g.cshtml.cs
+C:\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\JobPosts\Delete.g.cshtml.cs
+C:\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\JobPosts\Details.g.cshtml.cs
+C:\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\JobPosts\Edit.g.cshtml.cs
+C:\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\JobPosts\Index.g.cshtml.cs
+C:\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\Recruiters\Index.g.cshtml.cs
+C:\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LayoutAdmin.g.cshtml.cs
+C:\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\TechProject.RazorTargetAssemblyInfo.cache
+C:\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\TechProject.RazorTargetAssemblyInfo.cs
+C:\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\TechProject.Views.pdb
+C:\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\TechProject.csproj.CopyComplete
+E:\Software 469\TechProject\TechProject\TechProject\TechProject\bin\Debug\netcoreapp2.1\TechProject.deps.json
+E:\Software 469\TechProject\TechProject\TechProject\TechProject\bin\Debug\netcoreapp2.1\TechProject.runtimeconfig.json
+E:\Software 469\TechProject\TechProject\TechProject\TechProject\bin\Debug\netcoreapp2.1\TechProject.runtimeconfig.dev.json
+E:\Software 469\TechProject\TechProject\TechProject\TechProject\bin\Debug\netcoreapp2.1\TechProject.dll
+E:\Software 469\TechProject\TechProject\TechProject\TechProject\bin\Debug\netcoreapp2.1\TechProject.pdb
+E:\Software 469\TechProject\TechProject\TechProject\TechProject\bin\Debug\netcoreapp2.1\TechProject.Views.dll
+E:\Software 469\TechProject\TechProject\TechProject\TechProject\bin\Debug\netcoreapp2.1\TechProject.Views.pdb
+E:\Software 469\TechProject\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\TechProject.csprojAssemblyReference.cache
+E:\Software 469\TechProject\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\TechProject.csproj.CoreCompileInputs.cache
+E:\Software 469\TechProject\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\TechProject.RazorAssemblyInfo.cache
+E:\Software 469\TechProject\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\TechProject.RazorAssemblyInfo.cs
+E:\Software 469\TechProject\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\TechProject.AssemblyInfoInputs.cache
+E:\Software 469\TechProject\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\TechProject.AssemblyInfo.cs
+E:\Software 469\TechProject\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\TechProject.TagHelpers.input.cache
+E:\Software 469\TechProject\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\TechProject.TagHelpers.output.cache
+E:\Software 469\TechProject\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\TechProject.RazorCoreGenerate.cache
+E:\Software 469\TechProject\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.g.cshtml.cs
+E:\Software 469\TechProject\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\ContactPersons\Delete.g.cshtml.cs
+E:\Software 469\TechProject\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\ContactPersons\Details.g.cshtml.cs
+E:\Software 469\TechProject\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\ContactPersons\Index.g.cshtml.cs
+E:\Software 469\TechProject\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+E:\Software 469\TechProject\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\Home\AdminIndex.g.cshtml.cs
+E:\Software 469\TechProject\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\Home\Career.g.cshtml.cs
+E:\Software 469\TechProject\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+E:\Software 469\TechProject\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+E:\Software 469\TechProject\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\Home\JobDetails.g.cshtml.cs
+E:\Software 469\TechProject\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\Home\Service.g.cshtml.cs
+E:\Software 469\TechProject\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\JobPosts\Create.g.cshtml.cs
+E:\Software 469\TechProject\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\JobPosts\Delete.g.cshtml.cs
+E:\Software 469\TechProject\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\JobPosts\Details.g.cshtml.cs
+E:\Software 469\TechProject\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\JobPosts\Edit.g.cshtml.cs
+E:\Software 469\TechProject\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\JobPosts\Index.g.cshtml.cs
+E:\Software 469\TechProject\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\Recruiters\Index.g.cshtml.cs
+E:\Software 469\TechProject\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+E:\Software 469\TechProject\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+E:\Software 469\TechProject\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+E:\Software 469\TechProject\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LayoutAdmin.g.cshtml.cs
+E:\Software 469\TechProject\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+E:\Software 469\TechProject\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+E:\Software 469\TechProject\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+E:\Software 469\TechProject\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\TechProject.RazorTargetAssemblyInfo.cache
+E:\Software 469\TechProject\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\TechProject.RazorTargetAssemblyInfo.cs
+E:\Software 469\TechProject\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\TechProject.Views.pdb
+E:\Software 469\TechProject\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\TechProject.dll
+E:\Software 469\TechProject\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\TechProject.pdb
+E:\Software 469\TechProject\TechProject\TechProject\TechProject\obj\Debug\netcoreapp2.1\TechProject.csproj.CopyComplete

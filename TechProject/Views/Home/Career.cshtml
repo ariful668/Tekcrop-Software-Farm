@@ -1,0 +1,63 @@
+﻿@model IEnumerable<TechProject.Models.JobPost>
+@{
+    ViewData["Title"] = "Career";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<section class="career-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 career-info">
+                <h1>
+                    Smart, Curious, work at Tech Training
+                </h1>
+                <p>
+                    Tech Training is one of the leading software development companies in Bangladesh. As an IT professional, you will enjoy working with the team.
+                    Here you will find senior developer who have been working over a decade in IT field and have experience working on very large enterprise applications.  At the same time there are junior developers to train and utilize your knowledge in helping country to develop.
+                    The management here is very open and flexible. We seriously value and maintain flat management, anybody can talk with management any time without any fear.
+                    The team spirit here is very strong. Strong helping culture is one of the most important trend in Tech Training.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="job-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h3 class="job-list">Job Listings Near You</h3>
+                <hr />
+                <table class="table table-bordered table-hover">
+                    <thead class="table-head">
+                        <tr>
+                            <th class="text-center">Job Id</th>
+                            <th class="text-center">Name</th>
+                            <th class="text-center">Position</th>
+                            <th class="text-center">Skill</th>
+                            <th class="text-center">Added Date</th>
+                            <th class="text-center">Last Date</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody class="table-body">
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@Html.DisplayFor(modelItem => item.Id)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Position)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Skill)</td>
+                                <td>@Html.DisplayFor(modelItem => item.AddedDate)</td>
+                                <td>@Html.DisplayFor(modelItem => item.LastDate)</td>
+                                <td>
+                                    <a class="btn btn-primary" asp-action="JobDetails" asp-route-id="@item.Id">Details</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+
+

@@ -1,0 +1,334 @@
+﻿<!--[Arif 01-04-19]-->
+@*@model TechProject.Models.JobPost*@
+@model TechProject.ViewModels.CustomRecruiters
+<!--[~Arif 01-04-19]-->
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+
+<section class="career-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 career-info">
+                <h1>
+                    Smart, Curious, work at Tech Training
+                </h1>
+                <p>
+                    Tech Training is one of the leading software development companies in Bangladesh. As an IT professional, you will enjoy working with the team.
+                    Here you will find senior developer who have been working over a decade in IT field and have experience working on very large enterprise applications.  At the same time there are junior developers to train and utilize your knowledge in helping country to develop.
+                    The management here is very open and flexible. We seriously value and maintain flat management, anybody can talk with management any time without any fear.
+                    The team spirit here is very strong. Strong helping culture is one of the most important trend in Tech Training.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="app-content">
+    <div class="container emp-profile">
+        <div class="row">
+            <div class="col-sm-12">
+                <!--[Arif 01-04-19]-->
+                @*<h1 class="profile-name">@Html.DisplayFor(model => model.Name)</h1>
+                    <hr />
+                    <div class="row">
+                        <div class="col-md-3 job-left">
+                            <label>Job Id:</label>
+                        </div>
+                        <div class="col-md-9 job-right">
+                            <p>@Html.DisplayFor(model => model.Id)</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 job-left">
+                            <label>Vacancy:</label>
+                        </div>
+                        <div class="col-md-9 job-right">
+                            <p>@Html.DisplayFor(model => model.Vacancy)</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 job-left">
+                            <label>Position:</label>
+                        </div>
+                        <div class="col-md-9 job-right">
+                            <p>@Html.DisplayFor(model => model.Position)</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 job-left">
+                            <label>Job Description:</label>
+                        </div>
+                        <div class="col-md-9 job-right">
+                            <p>@Html.DisplayFor(model => model.Desp)</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 job-left">
+                            <label>Nature:</label>
+                        </div>
+                        <div class="col-md-9 job-right">
+                            <p>@Html.DisplayFor(model => model.Nature)</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 job-left">
+                            <label>Experience:</label>
+                        </div>
+                        <div class="col-md-9 job-right">
+                            <p>@Html.DisplayFor(model => model.Experience)</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 job-left">
+                            <label>Skill:</label>
+                        </div>
+                        <div class="col-md-9 job-right">
+                            <p>@Html.DisplayFor(model => model.Skill)</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 job-left">
+                            <label>Job Requirements:</label>
+                        </div>
+                        <div class="col-md-9 job-right">
+                            <p>@Html.DisplayFor(model => model.Requirements)</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 job-left">
+                            <label>Address:</label>
+                        </div>
+                        <div class="col-md-9 job-right">
+                            <p>@Html.DisplayFor(model => model.Address)</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 job-left">
+                            <label>Salary:</label>
+                        </div>
+                        <div class="col-md-9 job-right">
+                            <p>@Html.DisplayFor(model => model.Salary)</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 job-left">
+                            <label>Added Date:</label>
+                        </div>
+                        <div class="col-md-9 job-right">
+                            <p>@Html.DisplayFor(model => model.AddedDate)</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 job-left">
+                            <label>Last Date:</label>
+                        </div>
+                        <div class="col-md-9 job-right">
+                            <p>@Html.DisplayFor(model => model.LastDate)</p>
+                        </div>
+                    </div>*@
+
+                <h1 class="profile-name">@Html.DisplayFor(model => model.JobPost.Name)</h1>
+                <hr />
+                <div class="row">
+                    <div class="col-md-3 job-left">
+                        <label>Job Id:</label>
+                    </div>
+                    <div class="col-md-9 job-right">
+                        <p>@Html.DisplayFor(model => model.JobPost.Id)</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 job-left">
+                        <label>Vacancy:</label>
+                    </div>
+                    <div class="col-md-9 job-right">
+                        <p>@Html.DisplayFor(model => model.JobPost.Vacancy)</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 job-left">
+                        <label>Position:</label>
+                    </div>
+                    <div class="col-md-9 job-right">
+                        <p>@Html.DisplayFor(model => model.JobPost.Position)</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 job-left">
+                        <label>Job Description:</label>
+                    </div>
+                    <div class="col-md-9 job-right">
+                        <p>@Html.DisplayFor(model => model.JobPost.Desp)</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 job-left">
+                        <label>Nature:</label>
+                    </div>
+                    <div class="col-md-9 job-right">
+                        <p>@Html.DisplayFor(model => model.JobPost.Nature)</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 job-left">
+                        <label>Experience:</label>
+                    </div>
+                    <div class="col-md-9 job-right">
+                        <p>@Html.DisplayFor(model => model.JobPost.Experience)</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 job-left">
+                        <label>Skill:</label>
+                    </div>
+                    <div class="col-md-9 job-right">
+                        <p>@Html.DisplayFor(model => model.JobPost.Skill)</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 job-left">
+                        <label>Job Requirements:</label>
+                    </div>
+                    <div class="col-md-9 job-right">
+                        <p>@Html.DisplayFor(model => model.JobPost.Requirements)</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 job-left">
+                        <label>Address:</label>
+                    </div>
+                    <div class="col-md-9 job-right">
+                        <p>@Html.DisplayFor(model => model.JobPost.Address)</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 job-left">
+                        <label>Salary:</label>
+                    </div>
+                    <div class="col-md-9 job-right">
+                        <p>@Html.DisplayFor(model => model.JobPost.Salary)</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 job-left">
+                        <label>Added Date:</label>
+                    </div>
+                    <div class="col-md-9 job-right">
+                        <p>@Html.DisplayFor(model => model.JobPost.AddedDate)</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 job-left">
+                        <label>Last Date:</label>
+                    </div>
+                    <div class="col-md-9 job-right">
+                        <p>@Html.DisplayFor(model => model.JobPost.LastDate)</p>
+                    </div>
+                </div>
+                <!--[~Arif 01-04-19]-->
+
+                <div class="applyButtons">
+                    <a class="btn btn-danger pull-right" data-toggle="modal" data-target="#myModal">
+                        <img src="~/DataDirectory/images/Career/icon-apply-now.png" class="button-icon"> Apply
+                    </a>
+                    <div class="modal fade" id="myModal" role="dialog">
+                        <div class="modal-dialog">
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="career-panel grid-box">
+                                        <a><img src="~/DataDirectory/images/Career/carrer-icon.png" class="icon-circle responsive"></a>
+                                        <h3>QUICK APPLY</h3>
+                                        <p> This is just one simple step to quickly get us your information. You will need to have a copy of your resume to upload. Once we recieve your information, we will be in touch.</p>
+                                    </div>
+                                    <div class="job-form">
+                                        <!--[Arif 01-04-19]-->
+                                        @*<form class="contact-form" >*@
+                                            <form class="contact-form" enctype="multipart/form-data">
+                                                <!--[~Arif 01-04-19]-->
+                                                <!--[Arif 01-04-19]-->
+                                                @*<div class="form-group">
+                <input type="text" class="form-control" id="" name="" placeholder="Name" required="">
+            </div>
+            <div class="form-group form_left">
+                <input type="email" class="form-control" id="" name="" placeholder="Email" required="">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="" name="" placeholder="Mobile No." required="">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="" name="" placeholder="Address" required="">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="" name="" placeholder="Enter job ID" required="">
+            </div>
+                                                            <div class="form-group">
+                <div style="position:relative;">
+                    <a class='btn btn-danger' href='javascript:;'>
+                        Upload CV
+                        <input type="file" style='position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_source" size="40" onchange='$("#upload-file-info").html($(this).val());'>
+                    </a>
+                    &nbsp;
+                    <span class='label label-info' id="upload-file-info"></span>
+                </div>
+                <br />
+                <button class="btn btn-default btn-block btn-send"> <span class="glyphicon glyphicon-send"></span> Submit </button>
+            </div>
+                                                *@
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" id="" name="Recruiter.Name" placeholder="Name" required="">
+                                                </div>
+                                                <div class="form-group form_left">
+                                                    <input type="email" class="form-control" id="" name="Recruiter.Email" placeholder="Email" required="">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" id="" name="Recruiter.Phone" placeholder="Mobile No." required="">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" id="" name="Recruiter.Address" placeholder="Address" required="">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="hidden" class="form-control" id="" name="Recruiter.JobId" value="@Model.JobPost.Id" >
+                                                </div>
+
+
+                                                <div class="form-group">
+                                                    <div style="position:relative;">
+                                                        <a class='btn btn-danger' href='javascript:;'>
+                                                            Upload CV
+                                                            <input type="file" style='position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="ActualFile" size="40" onchange='$("#upload-file-info").html($(this).val());'>
+                                                        </a>
+                                                        &nbsp;
+                                                        <span class='label label-info' id="upload-file-info"></span>
+                                                    </div>
+                                                    <br />
+                                                    <button asp-controller="Recruiters" asp-action="JobApplied" formmethod="post" class="btn btn-default btn-block btn-send"> <span class="glyphicon glyphicon-send"></span> Submit </button>
+                                                </div>
+                                                <!--[~Arif 01-04-19]-->
+                                            </form>
+</div>
+                                </div>
+                                <div class="modal-footer">
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

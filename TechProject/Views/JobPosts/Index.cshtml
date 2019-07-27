@@ -1,0 +1,119 @@
+﻿@model IEnumerable<TechProject.Models.JobPost>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+<head>
+
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+</head>
+<div class="app-content">
+    <div class="container">
+        <h1 class="text-center">Job Details</h1>
+        <br /><br />
+        <a class="btn btn-success" asp-action="Create">Add</a>
+        <br />
+        <table class="table table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>
+                        Job Id
+                    </th>
+                    <th>
+                        Name
+                    </th>
+                    <th>
+                        Position
+                    </th>
+                    <th>
+                        Skill
+                    </th>
+                    <th>
+                        Added Date
+                    </th>
+                    <th>
+                        Last Date
+                    </th>
+                    <th>Action</th>
+                    <th>Action</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Position)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Skill)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.AddedDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.LastDate)
+                        <br />
+                        <label class="text-warning" id="id">
+
+                            @{
+                                DateTime currentTime = DateTime.Now;
+                                DateTime endTime = item.LastDate;
+                                TimeSpan span = endTime.Subtract(currentTime);
+                            }
+                            <!--[Arif 07-04-19]-->
+                            Remaining: @(span.Days <= 0 ? 0 : span.Days ) Days, @(span.Hours <= 0 ? 0 : span.Hours) Hours, @(span.Minutes <= 0 ? 0 : span.Minutes) Minutes
+                            <!--[~Arif 07-04-19]-->
+                        </label>
+                    </td>
+
+                    <td>
+                        <a class="btn btn-secondary" asp-action="Details" asp-route-id="@item.Id">Details</a>
+                    </td>
+                    <td>
+                        <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                    </td>
+                    <td>
+                        <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    </td>
+                </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<script>
+
+    //[Arif 07-04-19]
+         $(document).ready(function () {
+         setInterval(function () {
+             var date = new Date();
+             if (date.getHours() === 23 && date.getMinutes() === 59)
+             {
+                 $.ajax({
+                 type: 'POST',
+                 url: '@Url.Action("AutoDelete", "JobPosts")',
+                     success: function (data) {
+                         if (data != null) {
+                             if (data.errorMessage == null) {
+                                 location.reload();
+                             }
+                         }
+                     }
+                 });
+             }
+        }, 1000);
+    });
+//[~Arif 07-04-19]
+
+
+</script>
